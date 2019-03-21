@@ -1,13 +1,12 @@
-language: node.js
+language: node_js
 node_js:
-  - '11.10.1'
+  - "11.10.1"
 deploy:
   provider: heroku
   api_key: $HEROKU_KEY
-  app: pursuit-fruitsapp-hu
-  on: master
+  app: pursuit-fruitsapp-hu 
+  on: master 
   strategy: git
-
 
 # CI/CD pipeline testing
 # allows us to define configuration to assist with testing
